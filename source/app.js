@@ -3,12 +3,12 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res){
-	res.send('DevOps - Strona startowa!');
+	res.send('awja - Strona startowa!');
 	console.log('Zażądano strony Start');
 });
 
-app.get('/users', function(req, res){
-	res.send('DevOps - strona Users!');
+app.get('/aaa', function(req, res){
+	res.send('awja - strona aaa!');
 	console.log('Zażądano strony Users');
 });
 
